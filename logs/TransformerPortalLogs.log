@@ -1,0 +1,616 @@
+2016-09-20 09:35:10,111 INFO  com.Vdopia.portal.RunPortalSuite BeforeClass - /************************Starting Portal Test***************************/
+
+2016-09-20 09:35:10,114 INFO  com.Vdopia.portal.RunPortalSuite BeforeClass - /************************Creating Test Result Folder and File***************************/
+
+2016-09-20 09:35:10,128 DEBUG com.Vdopia.portal.WritingTestResults createTestResultFile - Test Result Folder and File Created Successfully
+
+2016-09-20 09:35:10,129 INFO  com.Vdopia.portal.RunPortalSuite BeforeClass - /************************Adding Result Column in Test Case Sheet***************************/
+
+2016-09-20 09:35:11,359 DEBUG com.Vdopia.portal.WritingTestResults addingResultColumn - Test Step Result Column added in Test Cases sheet successfully
+
+2016-09-20 09:35:11,360 INFO  com.Vdopia.portal.RunPortalSuite BeforeClass - /************************Adding Result Column in Test Eecution Control Sheet***************************/
+
+2016-09-20 09:35:11,607 DEBUG com.Vdopia.portal.WritingTestResults addingTestCaseResultColumn - Test Case Result Column added in Test Cases sheet successfully
+
+2016-09-20 09:35:11,700 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - /************************Running Test Case - TC_03***************************/
+
+2016-09-20 09:35:11,703 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_01
+
+2016-09-20 09:35:11,705 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - launchbrowser is being executed for keyword launchbrowser
+
+2016-09-20 09:35:11,710 INFO  com.Vdopia.portal.Keywords launchbrowser - In Launch Browser Method
+
+2016-09-20 09:35:11,711 DEBUG com.Vdopia.portal.Keywords launchbrowser - Received browser is chrome
+
+2016-09-20 09:35:11,711 DEBUG com.Vdopia.portal.Keywords launchbrowser - Starting launching Browser: chrome
+
+2016-09-20 09:35:13,732 INFO  com.Vdopia.portal.Keywords launchbrowser - Browser Launched is chrome
+
+2016-09-20 09:35:13,737 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_01 has result: Pass: Browser Launched successfully
+
+2016-09-20 09:35:13,740 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_02
+
+2016-09-20 09:35:13,742 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - navigateurl is being executed for keyword navigateurl
+
+2016-09-20 09:35:18,177 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_02 has result: Pass: Navigated url successfully
+
+2016-09-20 09:35:18,179 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_03
+
+2016-09-20 09:35:18,179 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 09:35:18,677 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object Login_PublisherDeveloper_RadioButton present in objectRowNumber 2
+
+2016-09-20 09:35:18,677 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='publisher']
+
+2016-09-20 09:35:19,395 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_03 has result: Pass: Radio button selected successfully
+
+2016-09-20 09:35:19,396 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_04
+
+2016-09-20 09:35:19,397 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 09:35:19,691 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object Login_Email_TextBox present in objectRowNumber 4
+
+2016-09-20 09:35:19,692 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='email']
+
+2016-09-20 09:35:19,925 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is vdopiapublisher@vdopia.com
+
+2016-09-20 09:35:19,925 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_04 has result: Pass: Data entered sucessfully
+
+2016-09-20 09:35:19,927 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_05
+
+2016-09-20 09:35:19,927 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 09:35:20,151 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object Login_Password_TextBox present in objectRowNumber 5
+
+2016-09-20 09:35:20,152 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='password']
+
+2016-09-20 09:35:20,285 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is vdopia123
+
+2016-09-20 09:35:20,285 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_05 has result: Pass: Data entered sucessfully
+
+2016-09-20 09:35:20,286 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_06
+
+2016-09-20 09:35:20,286 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - clickbutton is being executed for keyword clickbutton
+
+2016-09-20 09:35:20,512 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object Login_SignIn_Button present in objectRowNumber 6
+
+2016-09-20 09:35:20,512 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@value='Sign In']
+
+2016-09-20 09:35:22,484 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_06 has result: Pass: : Button Clicked successfully
+
+2016-09-20 09:35:22,485 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_07
+
+2016-09-20 09:35:22,485 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - movetopage is being executed for keyword movetopage
+
+2016-09-20 09:35:27,876 DEBUG com.Vdopia.portal.Handlerlib moveToFrame - Switching to frame: ifrm
+
+2016-09-20 09:35:27,876 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_07 has result: Pass: Moved to page: View Channels sucessfully
+
+2016-09-20 09:35:27,876 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_08
+
+2016-09-20 09:35:27,877 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - clickbutton is being executed for keyword clickbutton
+
+2016-09-20 09:35:28,062 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object View_Channel_Create_new_Channel_button present in objectRowNumber 214
+
+2016-09-20 09:35:28,063 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //button[@class='btn button-green']
+
+2016-09-20 09:35:29,622 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_08 has result: Pass: : Button Clicked successfully
+
+2016-09-20 09:35:29,622 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_09
+
+2016-09-20 09:35:29,622 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 09:35:29,738 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_ChannelName_TextBox present in objectRowNumber 215
+
+2016-09-20 09:35:29,738 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='name']
+
+2016-09-20 09:35:30,956 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is channel_#time#
+
+2016-09-20 09:35:30,957 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_09 has result: Pass: Data entered sucessfully
+
+2016-09-20 09:35:30,957 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_10
+
+2016-09-20 09:35:30,958 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 09:35:31,099 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_MarketingName_TextBox present in objectRowNumber 216
+
+2016-09-20 09:35:31,100 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='mktname']
+
+2016-09-20 09:35:31,248 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is channel_#time#
+
+2016-09-20 09:35:31,249 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_10 has result: Pass: Data entered sucessfully
+
+2016-09-20 09:35:31,249 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_11
+
+2016-09-20 09:35:31,250 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 09:35:31,372 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_ChannelType_Site_RadioButton present in objectRowNumber 218
+
+2016-09-20 09:35:31,372 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@value='MobileWeb']
+
+2016-09-20 09:35:31,483 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_11 has result: Pass: Radio button selected successfully
+
+2016-09-20 09:35:31,485 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_12
+
+2016-09-20 09:35:31,485 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 09:35:31,639 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_SiteDomain_TextBox present in objectRowNumber 220
+
+2016-09-20 09:35:31,639 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='sitedomain']
+
+2016-09-20 09:35:31,830 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is http://www.yahoo.com
+
+2016-09-20 09:35:31,830 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_12 has result: Pass: Data entered sucessfully
+
+2016-09-20 09:35:31,830 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_13
+
+2016-09-20 09:35:31,831 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 09:35:31,945 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_AppStore_SitePageURL_TextBox present in objectRowNumber 222
+
+2016-09-20 09:35:31,945 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='url']
+
+2016-09-20 09:35:32,147 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is http://www.google.com
+
+2016-09-20 09:35:32,147 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_13 has result: Pass: Data entered sucessfully
+
+2016-09-20 09:35:32,149 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_14
+
+2016-09-20 09:35:32,149 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 09:35:32,325 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Skippable_Yes_RadioButton present in objectRowNumber 223
+
+2016-09-20 09:35:32,325 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='skippable_yes']
+
+2016-09-20 09:35:32,534 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_14 has result: Pass: Radio button selected successfully
+
+2016-09-20 09:35:32,535 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_15
+
+2016-09-20 09:35:32,535 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 09:35:32,650 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Sound_On_RadioButton present in objectRowNumber 225
+
+2016-09-20 09:35:32,651 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='sound_yes']
+
+2016-09-20 09:35:32,754 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_15 has result: Pass: Radio button selected successfully
+
+2016-09-20 09:35:32,754 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_16
+
+2016-09-20 09:35:32,754 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 09:35:32,856 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Auto-play_Yes_RadioButton present in objectRowNumber 227
+
+2016-09-20 09:35:32,856 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='autoplay_yes']
+
+2016-09-20 09:35:32,955 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_16 has result: Pass: Radio button selected successfully
+
+2016-09-20 09:35:32,956 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_17
+
+2016-09-20 09:35:32,956 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 09:35:33,083 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Incentivized_Yes_RadioButton present in objectRowNumber 229
+
+2016-09-20 09:35:33,084 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='incentivized_yes']
+
+2016-09-20 09:35:33,185 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_17 has result: Pass: Radio button selected successfully
+
+2016-09-20 09:35:33,185 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_18
+
+2016-09-20 09:35:33,185 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 09:35:33,303 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_In-Stream_Yes_RadioButton present in objectRowNumber 231
+
+2016-09-20 09:35:33,303 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='in_stream_yes']
+
+2016-09-20 09:35:33,400 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_18 has result: Pass: Radio button selected successfully
+
+2016-09-20 09:35:33,401 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_19
+
+2016-09-20 09:35:33,401 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 09:35:33,498 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Clickable_Yes_RadioButton present in objectRowNumber 233
+
+2016-09-20 09:35:33,499 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='clickable_yes']
+
+2016-09-20 09:35:33,596 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_19 has result: Pass: Radio button selected successfully
+
+2016-09-20 09:35:33,596 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_20
+
+2016-09-20 09:35:33,596 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 09:35:33,706 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Integration_Direct_RadioButton present in objectRowNumber 235
+
+2016-09-20 09:35:33,706 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='direct_yes']
+
+2016-09-20 09:35:33,806 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_20 has result: Pass: Radio button selected successfully
+
+2016-09-20 09:35:33,806 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_21
+
+2016-09-20 09:35:33,806 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 09:35:33,930 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Video Ad Size_320x480_RadioButton present in objectRowNumber 237
+
+2016-09-20 09:35:33,930 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='maxvdosize']
+
+2016-09-20 09:35:34,037 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_21 has result: Pass: Radio button selected successfully
+
+2016-09-20 09:35:34,037 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_22
+
+2016-09-20 09:35:34,038 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_22 has result: Fail: Keyword entered is incorrect
+
+2016-09-20 22:30:08,716 INFO  com.Vdopia.portal.RunPortalSuite BeforeClass - /************************Starting Portal Test***************************/
+
+2016-09-20 22:30:08,731 INFO  com.Vdopia.portal.RunPortalSuite BeforeClass - /************************Creating Test Result Folder and File***************************/
+
+2016-09-20 22:30:08,827 DEBUG com.Vdopia.portal.WritingTestResults createTestResultFile - Test Result Folder and File Created Successfully
+
+2016-09-20 22:30:08,828 INFO  com.Vdopia.portal.RunPortalSuite BeforeClass - /************************Adding Result Column in Test Case Sheet***************************/
+
+2016-09-20 22:30:12,519 DEBUG com.Vdopia.portal.WritingTestResults addingResultColumn - Test Step Result Column added in Test Cases sheet successfully
+
+2016-09-20 22:30:12,519 INFO  com.Vdopia.portal.RunPortalSuite BeforeClass - /************************Adding Result Column in Test Eecution Control Sheet***************************/
+
+2016-09-20 22:30:12,751 DEBUG com.Vdopia.portal.WritingTestResults addingTestCaseResultColumn - Test Case Result Column added in Test Cases sheet successfully
+
+2016-09-20 22:30:12,884 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - /************************Running Test Case - TC_03***************************/
+
+2016-09-20 22:30:12,887 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_01
+
+2016-09-20 22:30:12,896 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - launchbrowser is being executed for keyword launchbrowser
+
+2016-09-20 22:30:12,904 INFO  com.Vdopia.portal.Keywords launchbrowser - In Launch Browser Method
+
+2016-09-20 22:30:12,905 DEBUG com.Vdopia.portal.Keywords launchbrowser - Received browser is chrome
+
+2016-09-20 22:30:12,905 DEBUG com.Vdopia.portal.Keywords launchbrowser - Starting launching Browser: chrome
+
+2016-09-20 22:30:18,012 INFO  com.Vdopia.portal.Keywords launchbrowser - Browser Launched is chrome
+
+2016-09-20 22:30:18,042 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_01 has result: Pass: Browser Launched successfully
+
+2016-09-20 22:30:18,045 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_02
+
+2016-09-20 22:30:18,047 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - navigateurl is being executed for keyword navigateurl
+
+2016-09-20 22:30:29,970 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_02 has result: Pass: Navigated url successfully
+
+2016-09-20 22:30:29,972 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_03
+
+2016-09-20 22:30:29,972 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 22:30:30,662 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object Login_PublisherDeveloper_RadioButton present in objectRowNumber 2
+
+2016-09-20 22:30:30,663 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='publisher']
+
+2016-09-20 22:30:31,169 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_03 has result: Pass: Radio button selected successfully
+
+2016-09-20 22:30:31,170 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_04
+
+2016-09-20 22:30:31,170 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 22:30:31,510 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object Login_Email_TextBox present in objectRowNumber 4
+
+2016-09-20 22:30:31,511 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='email']
+
+2016-09-20 22:30:32,330 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is vdopiapublisher@vdopia.com
+
+2016-09-20 22:30:32,330 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_04 has result: Pass: Data entered sucessfully
+
+2016-09-20 22:30:32,332 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_05
+
+2016-09-20 22:30:32,332 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 22:30:32,586 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object Login_Password_TextBox present in objectRowNumber 5
+
+2016-09-20 22:30:32,587 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='password']
+
+2016-09-20 22:30:32,802 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is vdopia123
+
+2016-09-20 22:30:32,803 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_05 has result: Pass: Data entered sucessfully
+
+2016-09-20 22:30:32,804 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_06
+
+2016-09-20 22:30:32,805 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - clickbutton is being executed for keyword clickbutton
+
+2016-09-20 22:30:32,994 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object Login_SignIn_Button present in objectRowNumber 6
+
+2016-09-20 22:30:32,995 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@value='Sign In']
+
+2016-09-20 22:30:35,309 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_06 has result: Pass: : Button Clicked successfully
+
+2016-09-20 22:30:35,310 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_07
+
+2016-09-20 22:30:35,310 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - movetopage is being executed for keyword movetopage
+
+2016-09-20 22:30:58,467 DEBUG com.Vdopia.portal.Handlerlib moveToFrame - Switching to frame: ifrm
+
+2016-09-20 22:30:58,467 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_07 has result: Pass: Moved to page: View Channels sucessfully
+
+2016-09-20 22:30:58,467 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_08
+
+2016-09-20 22:30:58,467 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - clickbutton is being executed for keyword clickbutton
+
+2016-09-20 22:30:58,710 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object View_Channel_Create_new_Channel_button present in objectRowNumber 214
+
+2016-09-20 22:30:58,710 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //button[@class='btn button-green']
+
+2016-09-20 22:31:00,339 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_08 has result: Pass: : Button Clicked successfully
+
+2016-09-20 22:31:00,341 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_09
+
+2016-09-20 22:31:00,341 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 22:31:00,530 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_ChannelName_TextBox present in objectRowNumber 215
+
+2016-09-20 22:31:00,531 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='name']
+
+2016-09-20 22:31:02,302 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is channel_#time#
+
+2016-09-20 22:31:02,303 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_09 has result: Pass: Data entered sucessfully
+
+2016-09-20 22:31:02,304 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_10
+
+2016-09-20 22:31:02,304 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 22:31:02,427 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_MarketingName_TextBox present in objectRowNumber 216
+
+2016-09-20 22:31:02,428 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='mktname']
+
+2016-09-20 22:31:02,594 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is channel_#time#
+
+2016-09-20 22:31:02,594 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_10 has result: Pass: Data entered sucessfully
+
+2016-09-20 22:31:02,595 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_11
+
+2016-09-20 22:31:02,595 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 22:31:02,743 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_ChannelType_Site_RadioButton present in objectRowNumber 218
+
+2016-09-20 22:31:02,744 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@value='MobileWeb']
+
+2016-09-20 22:31:02,858 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_11 has result: Pass: Radio button selected successfully
+
+2016-09-20 22:31:02,859 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_12
+
+2016-09-20 22:31:02,859 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 22:31:02,982 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_SiteDomain_TextBox present in objectRowNumber 220
+
+2016-09-20 22:31:02,983 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='sitedomain']
+
+2016-09-20 22:31:03,178 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is http://www.yahoo.com
+
+2016-09-20 22:31:03,178 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_12 has result: Pass: Data entered sucessfully
+
+2016-09-20 22:31:03,179 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_13
+
+2016-09-20 22:31:03,179 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 22:31:03,287 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_AppStore_SitePageURL_TextBox present in objectRowNumber 222
+
+2016-09-20 22:31:03,287 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='url']
+
+2016-09-20 22:31:03,454 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is http://www.google.com
+
+2016-09-20 22:31:03,454 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_13 has result: Pass: Data entered sucessfully
+
+2016-09-20 22:31:03,455 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_14
+
+2016-09-20 22:31:03,455 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 22:31:03,568 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Skippable_Yes_RadioButton present in objectRowNumber 223
+
+2016-09-20 22:31:03,568 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='skippable_yes']
+
+2016-09-20 22:31:03,676 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_14 has result: Pass: Radio button selected successfully
+
+2016-09-20 22:31:03,676 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_15
+
+2016-09-20 22:31:03,676 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 22:31:03,822 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Sound_On_RadioButton present in objectRowNumber 225
+
+2016-09-20 22:31:03,823 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='sound_yes']
+
+2016-09-20 22:31:03,933 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_15 has result: Pass: Radio button selected successfully
+
+2016-09-20 22:31:03,934 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_16
+
+2016-09-20 22:31:03,934 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 22:31:04,038 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Auto-play_Yes_RadioButton present in objectRowNumber 227
+
+2016-09-20 22:31:04,038 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='autoplay_yes']
+
+2016-09-20 22:31:04,183 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_16 has result: Pass: Radio button selected successfully
+
+2016-09-20 22:31:04,184 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_17
+
+2016-09-20 22:31:04,184 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 22:31:04,305 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Incentivized_Yes_RadioButton present in objectRowNumber 229
+
+2016-09-20 22:31:04,305 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='incentivized_yes']
+
+2016-09-20 22:31:04,408 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_17 has result: Pass: Radio button selected successfully
+
+2016-09-20 22:31:04,408 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_18
+
+2016-09-20 22:31:04,409 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 22:31:04,522 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_In-Stream_Yes_RadioButton present in objectRowNumber 231
+
+2016-09-20 22:31:04,522 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='in_stream_yes']
+
+2016-09-20 22:31:04,628 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_18 has result: Pass: Radio button selected successfully
+
+2016-09-20 22:31:04,629 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_19
+
+2016-09-20 22:31:04,629 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 22:31:04,727 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Clickable_Yes_RadioButton present in objectRowNumber 233
+
+2016-09-20 22:31:04,727 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='clickable_yes']
+
+2016-09-20 22:31:04,823 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_19 has result: Pass: Radio button selected successfully
+
+2016-09-20 22:31:04,823 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_20
+
+2016-09-20 22:31:04,823 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 22:31:04,926 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Integration_Direct_RadioButton present in objectRowNumber 235
+
+2016-09-20 22:31:04,926 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='direct_yes']
+
+2016-09-20 22:31:05,026 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_20 has result: Pass: Radio button selected successfully
+
+2016-09-20 22:31:05,026 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_21
+
+2016-09-20 22:31:05,027 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 22:31:05,156 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Video Ad Size_320x480_RadioButton present in objectRowNumber 237
+
+2016-09-20 22:31:05,156 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='maxvdosize']
+
+2016-09-20 22:31:05,284 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_21 has result: Pass: Radio button selected successfully
+
+2016-09-20 22:31:05,285 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_22
+
+2016-09-20 22:31:05,286 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_22 has result: Fail: Keyword entered is incorrect
+
+2016-09-20 22:31:05,286 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_23
+
+2016-09-20 22:31:05,287 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 22:31:05,401 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_FloorPriceConfig_HardFloor_TextBox present in objectRowNumber 241
+
+2016-09-20 22:31:05,401 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='floorprice0']
+
+2016-09-20 22:31:05,517 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is 5
+
+2016-09-20 22:31:05,517 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_23 has result: Pass: Data entered sucessfully
+
+2016-09-20 22:31:05,518 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_24
+
+2016-09-20 22:31:05,518 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 22:31:05,614 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_FloorPriceConfig_SoftFloor_TextBox present in objectRowNumber 242
+
+2016-09-20 22:31:05,614 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id= 'softfloorprice0']
+
+2016-09-20 22:31:05,741 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is 5
+
+2016-09-20 22:31:05,741 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_24 has result: Pass: Data entered sucessfully
+
+2016-09-20 22:31:05,743 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_52
+
+2016-09-20 22:31:05,743 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - clickbutton is being executed for keyword clickbutton
+
+2016-09-20 22:31:05,848 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_AdvanceSettings_Expand present in objectRowNumber 291
+
+2016-09-20 22:31:05,848 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //img[@id='img_advanceSetting'][contains(@src,'plus')]
+
+2016-09-20 22:31:05,995 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_52 has result: Pass: : Button Clicked successfully
+
+2016-09-20 22:31:05,995 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_53
+
+2016-09-20 22:31:05,995 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 22:31:06,099 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_AdvanceSettings_TopBarHeight_TextBox present in objectRowNumber 292
+
+2016-09-20 22:31:06,099 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@id='top_bar_height']
+
+2016-09-20 22:31:06,208 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is 20
+
+2016-09-20 22:31:06,208 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_53 has result: Pass: Data entered sucessfully
+
+2016-09-20 22:31:06,208 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_54
+
+2016-09-20 22:31:06,208 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 22:31:06,306 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_AdvanceSettings_BookingChannel_No_RadioButton present in objectRowNumber 294
+
+2016-09-20 22:31:06,306 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@name='pacing_enabled' and @value='true']
+
+2016-09-20 22:31:06,417 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_54 has result: Pass: Radio button selected successfully
+
+2016-09-20 22:31:06,418 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_55
+
+2016-09-20 22:31:06,418 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 22:31:06,514 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_AdvanceSettings_RONSetting_False_RadioButton present in objectRowNumber 297
+
+2016-09-20 22:31:06,514 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@name='run_untargeted' and @value='false']
+
+2016-09-20 22:31:06,624 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_55 has result: Pass: Radio button selected successfully
+
+2016-09-20 22:31:06,624 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_56
+
+2016-09-20 22:31:06,624 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectcheckbox is being executed for keyword selectcheckbox
+
+2016-09-20 22:31:06,742 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_AdvanceSettings_CheckOnTarget_CheckBox present in objectRowNumber 301
+
+2016-09-20 22:31:06,742 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@name='check_on_target']
+
+2016-09-20 22:31:06,896 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_56 has result: Pass: CheckBox selected successfully
+
+2016-09-20 22:31:06,897 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_57
+
+2016-09-20 22:31:06,897 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectcheckbox is being executed for keyword selectcheckbox
+
+2016-09-20 22:31:07,097 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_AdvanceSettings_Webview_CheckBox present in objectRowNumber 302
+
+2016-09-20 22:31:07,098 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@name='app_webview']
+
+2016-09-20 22:31:07,224 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_57 has result: Pass: CheckBox selected successfully
+
+2016-09-20 22:31:07,225 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_58
+
+2016-09-20 22:31:07,225 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - selectradiobutton is being executed for keyword selectradiobutton
+
+2016-09-20 22:31:07,347 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_AdvanceSettings_KeywordTargeting_False_RadioButton present in objectRowNumber 304
+
+2016-09-20 22:31:07,347 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //input[@name='keyword' and @value='0']
+
+2016-09-20 22:31:07,472 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_58 has result: Pass: Radio button selected successfully
+
+2016-09-20 22:31:07,473 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_59
+
+2016-09-20 22:31:07,473 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - typevalue is being executed for keyword typevalue
+
+2016-09-20 22:31:07,612 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_AdvanceSettings_AutoRefresh_TextBox present in objectRowNumber 305
+
+2016-09-20 22:31:07,612 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: auto_refresh
+
+2016-09-20 22:31:07,764 DEBUG com.Vdopia.portal.Keywords typevalue - Data typed is 6
+
+2016-09-20 22:31:07,764 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_59 has result: Pass: Data entered sucessfully
+
+2016-09-20 22:31:07,764 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_60
+
+2016-09-20 22:31:07,765 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - clickbutton is being executed for keyword clickbutton
+
+2016-09-20 22:31:07,896 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Save_Button present in objectRowNumber 485
+
+2016-09-20 22:31:07,896 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: submit
+
+2016-09-20 22:31:09,173 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_60 has result: Pass: : Button Clicked successfully
+
+2016-09-20 22:31:09,174 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_61
+
+2016-09-20 22:31:09,174 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - verifytext is being executed for keyword verifytext
+
+2016-09-20 22:31:09,293 DEBUG com.Vdopia.portal.GenericKeywords readObject - For Object EditApplication_Sucess_Message present in objectRowNumber 499
+
+2016-09-20 22:31:09,294 DEBUG com.Vdopia.portal.GenericKeywords readObject - Identifier Value is: //div[contains(text(),'Channel has been added successfully')]
+
+2016-09-20 22:31:09,389 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_61 has result: Pass: Message text is as expected
+
+2016-09-20 22:31:09,390 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - Running Test Step TC_03_80
+
+2016-09-20 22:31:09,391 INFO  com.Vdopia.portal.ReadingTestCases runTestSteps - closebrowser is being executed for keyword closebrowser
+
+2016-09-20 22:31:09,391 INFO  com.Vdopia.portal.Keywords closebrowser - Preparing to close browser
+
+2016-09-20 22:31:10,184 DEBUG com.Vdopia.portal.ReadingTestCases runTestSteps - TC_03_80 has result: Pass: Browser Closed
+
