@@ -8,9 +8,9 @@
     
     <property name="ws.home" value="${basedir}"/>
 	<property name="ws.jars" value="ext_jars"/>
-    <property name="test.dest" value="${ws.home}/build"/>
-    <property name="test.src" value="${ws.home}/src"/>
-	<property name="ng.result" value="test-output"/>
+    <property name="test.dest" value="${ws.home}/build"/> <!-- ===Class files location== -->
+    <property name="test.src" value="${ws.home}/src"/>  <!-- ===Java files location== -->
+	<property name="ng.result" value="test-output"/>   
     
     <!--target name="start-selenium-server">
         <java jar="${ws.home}/lib/selenium-server.jar"/>
@@ -85,7 +85,7 @@
 
     <!-- run -->
     <target name="run" depends="compile">
-        <testng classpath="${test.classpath}:${test.dest}" suitename="suite1">	
+        <testng classpath="${test.classpath}:${test.dest}" suitename="Suite1">	
             <xmlfileset dir="${ws.home}" includes="testng.xml"/>
         </testng>
         <!--
@@ -94,6 +94,12 @@
         </testng>
         -->
     </target>
+	
+	 <!--
+	        <batchtest classpath="${test.classpath}:${test.dest}" groups="fast">
+	            <classfileset dir="${test.dest}" includes="example1/*.class"/>
+	        </testng>
+	        -->
 
     <target name="usage">
         <echo>

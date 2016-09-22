@@ -16,7 +16,7 @@ import org.testng.annotations.BeforeClass;
 
 public class RunPortalSuite {
 	public Logger log = Logger.getLogger(this.getClass());
-	HashMap<String, Boolean> map = new HashMap<>();
+	HashMap<String, Boolean> map = new HashMap<String, Boolean>();
 	WritingTestResults writingTestResults = new WritingTestResults();
 
 
