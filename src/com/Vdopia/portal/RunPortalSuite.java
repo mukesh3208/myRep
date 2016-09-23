@@ -19,13 +19,10 @@ public class RunPortalSuite {
 	HashMap<String, Boolean> map = new HashMap<String, Boolean>();
 	WritingTestResults writingTestResults = new WritingTestResults();
 
-
-
-
 	@BeforeClass
 	public void BeforeClass()
 	{
-		PropertyConfigurator.configure("/Users/mukeshkumar/Documents/MarsWorkspace/Portal_Test/UsedFiles/log4j.properties");
+		PropertyConfigurator.configure(System.getProperty("user.dir")+"//UsedFiles//log4j.properties");
 		log.info("/************************Starting Portal Test***************************/");
 		
 		log.info("/************************Creating Test Result Folder and File***************************/");
